@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Loakountry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name = "maps_api_key">AIzaSyCcKHIKISB1bkjbiqppD9nZGui9Ck5D3NQ</string>
+     <string name="search_text">Tap Here to Search</string>
+    <string name="try_these_string">Try searching these:</string>
+    <string name="boating_string">Boating...</string>
+    <string name="bike_trail_string">Bike Trails...</string>
+    <string name="bird_watching_string">Bird watching...</string>
+    <string name="search_bar_string">Enter Text Here</string>
+    <string name="description_text">TD Arena is located in Charleston South Carolina and is home to the College of Charleston cougars.</string>
+
+</resources>

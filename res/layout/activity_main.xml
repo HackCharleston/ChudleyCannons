@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".95"
+    android:background="@color/light_green"
+    tools:context="johnson.hackcharlestoncc.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <fragment 
+        android:id="@+id/MapViewLayout"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:apiKey="AIzaSyCcKHIKISB1bkjbiqppD9nZGui9Ck5D3NQ"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <RatingBar
+        android:id="@+id/itemRatingBar"
+        style="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MapViewLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:isIndicator="true"
+        android:rating="4.5" />
+
+    <TextView
+        android:id="@+id/descripTextView"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemRatingBar"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    
+    </RelativeLayout> 
