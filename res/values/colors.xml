@@ -2,5 +2,11 @@
 <resources>
     <color name="orange">#C36D33</color>
     <color name="blue">#64BAFF</color>
+    <color name="light_green">#B7FF3D</color>
+    <color name="dark_green">#248219</color>
+    <color name="dark_red">#822010</color>
+    <color name="light_red">#DE6D32</color>
+    <color name="yellow_green">#A6DE15</color>
+    <color name="brown">#9C7848</color>
     
 </resources>

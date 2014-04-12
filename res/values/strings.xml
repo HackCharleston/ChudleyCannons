@@ -4,5 +4,11 @@
     <string name="app_name">HackCharlestonCC</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="search_text">Tap Here to Search</string>
+    <string name="try_these_string">Try searching these:</string>
+    <string name="boating_string">Boating...</string>
+    <string name="bike_trail_string">Bike Trails...</string>
+    <string name="bird_watching_string">Birdwatching...</string>
+    <string name="search_bar_string">Enter Text Here</string>
 
 </resources>
